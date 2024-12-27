@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Calorie Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="metro-heading">Sports Calorie Counter</h1>
+        <form id="calorie-form">
+            <input type="date" id="date" required>
+            <input type="text" id="food" placeholder="Food Item" required>
+            <input type="number" id="calories" placeholder="Calories" required>
+            <button type="submit"><i class="fas fa-plus"></i> Add Entry</button>
+        </form>
+        <div id="total-calories">Total Calories: 0</div>
+        <div id="entries"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
